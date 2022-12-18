@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>cv</title>
+  </head>
 
+  <body>
+    <header>
+      <div class="contaner">
+        <nav>
+          <a href="https://rs.school/js/"
+            ><img class="logo" src="./assets/rs_school_js.svg" alt="logo"></a>
+          <ul class="nav-list">
+            <li><a class="link-nav" href="#pdata">Personal data</a></li>
+            <li><a class="link-nav" href="#about">About myself</a></li>
+            <li><a class="link-nav" href="#skills">Skills</a></li>
+            <li><a class="link-nav" href="#code">Code examples</a></li>
+            <li><a class="link-nav" href="#experience">Work experience</a></li>
+            <li><a class="link-nav" href="#education">Education</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="contaner">
+        <section class="section">
+          <h1 class="section-title">Nikolay Kuzmichev</h1>
+          <img class="photo" src="./assets/myPhoto.jpg" alt="My photo">
+          <br>
+        </section>
+
+        <section class="section" id="pdata">
+          <h2>Personal data</h2>
+          <ul>
+            <li>Born on March 16, 1982 in the city of Slutsk</li>
+            <li>I live in the city of Slutsk</li>
+            <li class="phone">
+              Contact phone: <a href="tel:+375447623097"></a>+375447623097
+            </li>
+          </ul>
+          <br>
+        </section>
+
+        <section class="section" id="about">
+          <h2>About myself</h2>
+          <p>
+            I teach radar technology at a military university in the Republic of
+            Belarus. In addition to teaching, I am engaged in scientific
+            activities. Currently I am working on my Ph.D. thesis related to the
+            adaptation of radar angle meters to the polarization of the received
+            signal. Of the achievements, I can note the deep knowledge of the
+            BUK air defense system, knowledge of digital technology, probability
+            theory and matrix apparatus, a trip by sea from Belarus to
+            Montenegro in a private car. In my free time I like to relax in
+            nature, I am fond of spearfishing and fishing. I have a golden
+            retriever named Gera.
+          </p>
+          <br>
+        </section>
+
+        <section class="section" id="skills">
+          <h2>Skills</h2>
+          <p>
+            In my work I actively use such tools as the C++ programming
+            language, the MathCad mathematical package, the CST Macroweve Studio
+            microwave modeling environment. In my free time, I study the
+            JavaScript programming language. Currently I have a basic knowledge
+            of HTML, CSS, Git, JavaScript, React, Type Script and Node JS. At
+            the moment I am working on the transition to a higher level of
+            proficiency in these technologies. I have knowledge of English at
+            the level A1-A2 and I am working on its improvement.
+          </p>
+          <br>
+        </section>
+
+        <section class="section" id="code">
+          <h2>Code examples</h2>
+          <code>
+            let tempArr = message.split("").map((simb) => {<br>
+            let code = simb.charCodeAt();<br>
+            if ((code > 64 && code &lt; 78) || (code > 96 && code &lt; 110))
+            code = code + 13;<br>
+            else if ((code > 77 && code &lt; 91) || (code > 108 && code &lt;
+            123)) code -= 13;<br>
+            return String.fromCodePoint(code);<br>
+            });<br>
+            return tempArr.join("");<br>
+            }br
+          </code>
+          <div>
+            <div>
+              <a href="https://nikolay16031982.github.io/rsschool-cv/cv"
+              >My project CV</a
+            >
+            </div>
+            <div>
+              <a href="https://nikolay16031982.github.io/calculator/"
+              >My project Calculator</a
+            >
+            </div>
+            
+          </div>
+
+          <br>
+        </section>
+
+        <section class="section" id="experience">
+          <h2>Work experience</h2>
+          <p>
+            I have extensive experience in modeling radar stations in C ++ while
+            serving in the Armed Forces of the Republic of Belarus. I have
+            experience in developing digital devices based on microcontrollers
+            designed to interface with a digital computer of BUK air defense
+            systems in C ++.
+          </p>
+          <br>
+        </section>
+
+        <section class="section" id="education">
+          <h2>Education</h2>
+          <ol>
+            <li>1988-1997 Secondary school number 10 of the city of Slutsk.</li>
+            <li>1997-1999 Secondary school number 5 of the city of Slutsk.</li>
+            <li>
+              1999-2004 Faculty of Air Defense Educational Institution "VA RB"
+            </li>
+            <li>
+              2013-2015 Command and staff faculty of the educational institution
+              "VA RB".
+            </li>
+            <li>
+              2016-2017 Full-time adjuncture of the educational institution
+              "VARB" in the specialty of radar and radio navigation.
+            </li>
+            <li>
+              I am currently studying Java Script and Node JS at RS Scool.
+            </li>
+          </ol>
+          <br>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="contaner">
+        <a href="https://rs.school/js/"
+          ><img class="logo" src="./assets/rs_school_js.svg" alt="logo">
+        </a>
+        <span>2022</span>
+        <a href="https://github.com/Nikolay16031982">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>
